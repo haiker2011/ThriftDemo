@@ -25,7 +25,7 @@ public class ClientDemo {
             user.username = "haiker";
             user.age = 26;
             String result = client.sayHello(user);
-            System.out.println("Thrify client result is: " + result);
+            System.out.println("Thrift client result is: " + result);
         } catch (TException e) {
             e.printStackTrace();
         } finally {
